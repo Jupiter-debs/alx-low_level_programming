@@ -1,10 +1,10 @@
 #include <stdio.h>
 /*
  *This is how to use puts
- *and also make the code return a value 0 which shows 
- * the code ran successfully
- *Main - the funtion where puts is executed
+ * 
  *
+ *Main - the funtion where puts is executed
+ *Return - returns (0) to show success
  */
 int main(void)
 {
