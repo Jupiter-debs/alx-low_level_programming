@@ -11,11 +11,11 @@ int main(void)
 
 	for (c = 97; c <= 122; c++)
 	{
-		putchar(c);
 		if (c == 101 || c == 113)
 		{
 			continue;
 		}
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
