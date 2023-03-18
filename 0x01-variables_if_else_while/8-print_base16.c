@@ -7,11 +7,16 @@
 
 int main(void)
 {
-	char c = 122;
+	char i = 48;
+	char c = 58;
 
-	for (c = 122; c >= 97; c--)
+	for (i = 48; i <= 122; i++)
 	{
-		putchar(c);
+		for (c = 58; c <= 96; c++)
+		{
+			continue;
+		}
+		putchar(i);
 	}
 	putchar('\n');
 	return (0);
