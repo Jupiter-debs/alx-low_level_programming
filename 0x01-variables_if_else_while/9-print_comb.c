@@ -12,6 +12,10 @@ int main(void)
 	while (i <= 57)
 	{
 		putchar(i);
+		if (1 == 9)
+		{
+			break;
+		}
 		putchar(44);
 		putchar(32);
 		i++;
