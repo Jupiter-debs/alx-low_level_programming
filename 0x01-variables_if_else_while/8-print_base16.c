@@ -8,11 +8,10 @@
 int main(void)
 {
 	char i = 48;
-	char c = 58;
 
-	for (i = 48; i <= 122; i++)
+	for (i = 48; i <= 57; i++)
 	{
-		for (c = 58; c <= 96; c++)
+		if (i >= 58 && i <= 96)
 		{
 			continue;
 		}
