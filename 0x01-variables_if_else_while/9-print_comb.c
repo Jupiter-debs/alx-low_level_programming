@@ -12,10 +12,10 @@ int main(void)
 	while (i <= 56)
 	{
 		putchar(i);
-		putchar(44);
-		putchar(32);
+		putchar(', ');
 		i++;
 	}
 	putchar(57);
+	putcar(32);
 	return (0);
 }
