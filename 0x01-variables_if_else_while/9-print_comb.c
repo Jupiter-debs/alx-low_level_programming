@@ -17,7 +17,7 @@ int main(void)
 			break;
 		}
 		putchar(44);
-		puchar(32);
+		putchar(32);
 		i++;
 	}
 	putchar(32);
